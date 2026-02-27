@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 8080; // set the port
 
 // define a route for the root URL
 app.get('/', (req, res) => {
-  return res.json({msg: 'Hello from the server!'}); // send a JSON response
+  return res.json({msg: 'Hello from the server! V1'}); // send a JSON response
 });
 
 app.listen(PORT, () => {
