@@ -33,8 +33,7 @@ The app returns JSON:
 ```bash
 npm install
 node index.js
-```
-
+``` 
 Open: `http://localhost:8080`
 
 ## Run with Docker
